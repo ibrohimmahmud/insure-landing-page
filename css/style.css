@@ -67,6 +67,13 @@ img{
     margin-right: auto;
 }
 
+.add-on-container{
+    width: 100%;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* main content */
 .main{
     flex-grow: 1;
