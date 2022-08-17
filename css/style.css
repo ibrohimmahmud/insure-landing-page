@@ -376,3 +376,30 @@ img{
     color: var(--gray);
 }
 
+.how-we-work-container{
+    padding-bottom: 150px;
+}
+
+.how-we-work{
+    display: flex;
+    position: relative;
+    padding: 50px 80px;
+    background-color: var(--purple);
+    color: var(--white);
+    align-items: center;
+    background-image: url(../img/waves.svg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 400px) center;
+    justify-content: space-between;
+}
+
+
+.how-we-work-heading{
+    width: 440px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.78px;
+}
+
