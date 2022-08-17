@@ -403,6 +403,24 @@ img{
     letter-spacing: -0.78px;
 }
 
+/* SITE FOOTER */
+.site-footer{
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    z-index: 1;
+    background-color: var(--footer-bcolor);
+}
+
+.footer-waves{
+    width: 699px;
+    height: 651px;
+    position: absolute;
+    top: -419px;
+    left: -170px;
+}
 
 /* FOOTER TOP */
 .footer-top{
