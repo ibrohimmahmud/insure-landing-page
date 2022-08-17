@@ -58,6 +58,31 @@ img{
     cursor: pointer;
 }
 
+.button-view{
+    border-color: var(--dark);
+    color: var(--dark);
+}
+
+.button-view:hover{
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.button-view-white{
+    border-color: var(--white);
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.button-view-white:hover{
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.button-how-we-work{
+    background-color: transparent;
+}
+
 .container{
     width: 100%;
     max-width: 1150px;
