@@ -224,3 +224,63 @@ img{
     color: var(--light-blue);
 }
 
+/* SITE BITMAP */
+.site-bitmap{
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple);
+    color: var(--white);
+    margin-bottom: 155px;
+}
+
+.bitmap-wrapper{
+    display: flex;
+    position: relative;
+}
+
+.bitmap-content{
+    width: 540px;
+    padding-bottom: 125px;
+}
+
+.line{
+    width: 150px;
+    height: 1px;
+    margin-bottom: 63px;
+}
+
+.line-white{
+    background-color: var(--white);
+}
+
+.section-heading{
+    width: 100%;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+.bitmap-heading{
+    margin-bottom: 16px;
+    max-width: 460px;
+}
+
+.bitmap-text{
+    width: 100%;
+    max-width: 530px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.bitmap-img{
+    width: 540px;
+    height: 650px;
+    margin-bottom: -155px;
+    object-fit: contain;
+}
+
