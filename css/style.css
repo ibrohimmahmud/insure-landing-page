@@ -444,3 +444,49 @@ img{
     object-position: center;
 }
 
+/* FOOTER BOTTOM */
+.footer-bottom{
+    display: flex;
+    padding-top: 48px;
+}
+
+.footer-bottom-list{
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.footer-link-item{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+}
+
+.footer-link-item:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.footer-bottom-list-heading{
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: var(--gray);
+}
+
+.footer-bottom-link{
+    text-decoration: none;
+    color: var(--purple);
+    transition: opacity 0.5s ease;
+}
+
+.footer-bottom-link:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom-link:active{
+    opacity: 0.6;
+}
