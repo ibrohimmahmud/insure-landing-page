@@ -300,3 +300,79 @@ img{
     right: -262px;
 }
 
+/* SITE DIFFERENT */
+.different{
+    padding-top: 150px;
+    padding-bottom: 158px;
+    z-index: 1;
+    background-color: var(--white);
+}
+
+.line-dark{
+    background-color: #C396C6;
+}
+
+.different-heading{
+    width: 710px;
+    margin-bottom: 96px;
+}
+
+.different-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.different-item{
+    width: 340px;
+}
+
+.different-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.different-content-wrap::before{
+    display: block;
+    width: 86px;
+    height: 86px;
+    background-repeat: no-repeat;
+    background-size: auto 32px;
+    background-position: center center;
+    padding: 27px;
+    border-radius: 50%;
+    margin-bottom: 32px;
+    background-color: var(--light-blue);
+    content: "";
+}
+
+.lighting-wrap::before{
+    background-image: url(../img/lightning.svg);
+    content: "";
+}
+
+.doller-wrap::before{
+    background-image: url(../img/dollar-coin.svg);
+    content: "";
+}
+
+.people-wrap::before{
+    background-image: url(../img/people.svg);
+    content: "";
+}
+
+.different-content-heading{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.38px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.different-content-text{
+    margin: 0;
+    color: var(--gray);
+}
+
