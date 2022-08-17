@@ -149,7 +149,7 @@ img{
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 2;
+    z-index: 3;
     background-color: var(--white);
     padding: 20px 0;
 }
