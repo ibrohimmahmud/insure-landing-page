@@ -1,3 +1,13 @@
+/* CUSTOM PROPS */
+:root{
+    --dark: #2C2830;
+    --gray: #837D88;
+    --purple: #2D2641;
+    --light-blue: #96A9C6;
+    --white: #fff;
+    --footer-bcolor: #fafafa;
+}
+
 
 html{
     box-sizing: border-box;
