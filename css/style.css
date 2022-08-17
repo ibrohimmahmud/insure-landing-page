@@ -284,3 +284,19 @@ img{
     object-fit: contain;
 }
 
+.left-waves{
+    width: 699px;
+    height: 651px;
+    position: absolute;
+    top: 414px;
+    left: -503px;
+}
+
+.right-waves{
+    width: 699px;
+    height: 651px;
+    position: absolute;
+    top: -137px;
+    right: -262px;
+}
+
